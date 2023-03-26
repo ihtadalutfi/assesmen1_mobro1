@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Assesment1</string>
+    <string name="app_name">Assesment!</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="apa_nama_hewan_ini">apa nama hewan ini?</string>
+    <string name="masukan_nama_hewan">masukan nama hewan</string>
 </resources>

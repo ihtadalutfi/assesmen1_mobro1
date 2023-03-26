@@ -10,8 +10,8 @@ import com.example.assesment1.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    private val hewan = listOf("Ayam", "Bebek", "Domba", "Kambing", "Sapi")
-    private var index = 0
+//    private val hewan = listOf("Ayam", "Bebek", "Domba", "Kambing", "Sapi")
+//    private var index = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
