@@ -1,13 +1,36 @@
 package com.example.assesment1
 
+import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.assesment1.databinding.ListItemBinding
 
 class MainAdapter(private val data: List<Hewan>) :
+
+
     RecyclerView.Adapter<MainAdapter.ViewHolder>() {
+//class MainAdapter : AppCompatActivity() {
+//    var tekan: TextView? = null
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//
+//        setContentView(android.R.layout.activity_main)
+//        tekan = findViewById<View>(android.R.id.tekan) as TextView
+//
+//    }
+//
+//    fun ButtonOnClick(V: View?) {
+//        tekan!!.text = "Jawaban Sedang di periksa"
+//        this.tekan!!.visibility = View.VISIBLE
+//    }
+//}
+
     class ViewHolder(
         private val binding: ListItemBinding
     ) : RecyclerView.ViewHolder(binding.root) {
