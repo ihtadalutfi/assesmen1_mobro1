@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
             Hewan("Kerbau", "Bubalus bubalis", R.drawable.kerbau),
             Hewan("Kuda", "Equus caballus", R.drawable.kuda),
             Hewan("Sapi", "Bos taurus", R.drawable.sapi),
-
             )
     }
 
