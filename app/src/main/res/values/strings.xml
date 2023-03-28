@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">Assesment!</string>
+    <string name="app_name">Tebak Nama Hewan</string>
     <string name="message">%1$s diklik!</string>
     <string name="apa_nama_hewan_ini">apa nama hewan ini?</string>
     <string name="masukan_nama_hewan">masukan nama hewan</string>
     <string name="simpan">simpan</string>
+    <string name="button">button</string>
+    <string name="tekan_invalid">gak boleh kosong</string>
+    <string name="benar">Jawabannya adalah angsa</string>
+    <string name="salah">Maaaf Jawaban Kamu Salah :(</string>
+    <string name="tekanEditText">tekanEditText</string>
+    <string name="kategori_x">Kategori: %1$s</string>
 </resources>
